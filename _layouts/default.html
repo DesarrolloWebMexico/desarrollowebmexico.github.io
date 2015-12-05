@@ -25,14 +25,21 @@
 <main class="container-fluid">
   <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
-      <h1>{{ site.title }}</h1>
-      <p class="icons"><i class="fi-html5"></i> <i class="fi-like"></i>
-				<i class="fi-css3"></i>	<i class="fi-laptop"></i> <i class="fi-euro"></i>
-				<i class="fi-tablet-portrait"></i> <i class="fi-shopping-cart"></i>
-				<i class="fi-graph-trend"></i> <i class="fi-graph-pie"></i>
-				<i class="fi-cloud"></i> <i class="fi-torsos-all"></i>
-		  </p>
-      <p class="lead">{{ site.summary }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="icons">
+      	<i class="fi-html5"></i>
+      	<i class="fi-like"></i>
+	<i class="fi-css3"></i>
+	<i class="fi-laptop"></i>
+	<i class="fi-euro"></i>
+	<i class="fi-tablet-portrait"></i>
+	<i class="fi-shopping-cart"></i>
+	<i class="fi-graph-trend"></i>
+	<i class="fi-graph-pie"></i>
+	<i class="fi-cloud"></i>
+	<i class="fi-torsos-all"></i>
+      </p>
+      <p class="lead">{{ page.summary }}</p>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
       {% include form.html %}
