@@ -2,6 +2,7 @@
 layout: post
 title: 2015 tuvo navidad anticipada para el desarrollo web
 summary: PHP7, Drupal 8, la caída de flash, y muchas otras buenas noticias a finales del 2015.
+language: es
 ---
 
 Este año fue uno muy productivo para el desarrollo web, sobre todo por la gran inversión de grandes y pequeñas empresas que apostaron por las tecnologías 2.0
