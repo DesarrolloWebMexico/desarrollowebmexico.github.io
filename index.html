@@ -5,26 +5,27 @@ summary: Somos un equipo joven de desarrolladores , diseñadores, estadistas, y 
 ---
 <div class="row text-center">
   <div class="col-xs-6 col-md-3">
-    <img alt="Posicionamiento Seo" src="{{ site.baseurl }}/images/search-engines.jpg" class="img-responsive img-rounded">
-    <h4>Posicionamiento Seo</h4>
+    <img alt="Posicionamiento Seo" src="{{ site.baseurl }}/images/search-engines.jpg" class="img-responsive img-rounded m-x-auto">
+    <h4 class="m-y">Posicionamiento Seo</h4>
     <p>Posiciona tu página en los primeros resultados.</p>
   </div>
   <div class="col-xs-6 col-md-3">
-    <img alt="Social Media" src="{{ site.baseurl }}/images/social-media.jpg" class="img-responsive img-rounded">
-    <h4>Social Media</h4>
+    <img alt="Social Media" src="{{ site.baseurl }}/images/social-media.jpg" class="img-responsive img-rounded m-x-auto">
+    <h4 class="m-y">Social Media</h4>
     <p>Tus propios clientes serán quienes promocionen tu marca.</p>
     </div>
   <div class="col-xs-6 col-md-3">
-    <img alt="eCommerce" src="{{ site.baseurl }}/images/comercio-electronico.jpg" class="img-responsive img-rounded">
-    <h4>eCommerce</h4>
+    <img alt="eCommerce" src="{{ site.baseurl }}/images/comercio-electronico.jpg" class="img-responsive img-rounded m-x-auto">
+    <h4 class="m-y">eCommerce</h4>
     <p>Tus productos disponibles en todo lugar y a toda hora.</p>
   </div>
   <div class="col-xs-6 col-md-3">
-    <img alt="Diseño Responsivo" src="{{ site.baseurl }}/images/diseno-web-responsivo.jpg" class="img-responsive img-rounded">
-    <h4>Diseño Responsivo</h4>
+    <img alt="Diseño Responsivo" src="{{ site.baseurl }}/images/diseno-web-responsivo.jpg" class="img-responsive img-rounded m-x-auto">
+    <h4 class="m-y">Diseño Responsivo</h4>
     <p>Listo para todos los dispositivos en el mercado.</p>
   </div>
 </div>
+<h2 class="text-info">Blog</h2>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -35,7 +36,7 @@ summary: Somos un equipo joven de desarrolladores , diseñadores, estadistas, y 
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
     </article>
   {% endfor %}
 </div>

@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Nuestro 
+
+
 
 ### More Information
 

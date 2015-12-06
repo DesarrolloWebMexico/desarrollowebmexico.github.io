@@ -10,6 +10,11 @@ p.icons{
 	color:rgba(245,159,26,0.8);
 	text-shadow: 1px 4px 6px #FFF,0 0 0 #000,1px 4px 6px #FFF;
 }
+p.icons:after {
+  content:"";
+  display:inline-block;
+  width:100%;
+}
 </style>
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 <header class="container-fluid">
@@ -31,18 +36,18 @@ p.icons{
   <div class="row">
     <div class="col-sm-12 col-md-6 col-lg-8 col-xl-9">
       <h1>{{ page.title }}</h1>
-      <p class="icons">
+      <p class="icons text-justify">
       	<i class="fi-html5"></i>
       	<i class="fi-like"></i>
-	<i class="fi-css3"></i>
-	<i class="fi-laptop"></i>
-	<i class="fi-euro"></i>
-	<i class="fi-tablet-portrait"></i>
-	<i class="fi-shopping-cart"></i>
-	<i class="fi-graph-trend"></i>
-	<i class="fi-graph-pie"></i>
-	<i class="fi-cloud"></i>
-	<i class="fi-torsos-all"></i>
+        <i class="fi-css3"></i>
+        <i class="fi-laptop"></i>
+        <i class="fi-euro"></i>
+        <i class="fi-tablet-portrait"></i>
+        <i class="fi-shopping-cart"></i>
+        <i class="fi-graph-trend"></i>
+        <i class="fi-graph-pie"></i>
+        <i class="fi-cloud"></i>
+        <i class="fi-torsos-all"></i>
       </p>
       <p class="lead">{{ page.summary }}</p>
     </div>
