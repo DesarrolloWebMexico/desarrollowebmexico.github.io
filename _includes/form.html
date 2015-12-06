@@ -1,8 +1,16 @@
-<form action="https://getsimpleform.com/messages?form_api_token=66b38b00cab215080d291f08f3fd3b92" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=66b38b00cab215080d291f08f3fd3b92" method="post" class="bg-info">
   <input type="hidden" name="redirect_to" value="//desarrollowebmexico.github.io/gracias">
 	<h3>Contactanos</h3>
-	<input name="email" placeholder="Correo Electronico" type="email">
-	<input name="telefono" placeholder="Telefono" class="radius" type="text">
-	<textarea>¿Cuál es su necesidad?</textarea>
-	<input value="Enviar" type="submit">
+  <fieldset class="form-group">
+    <div class="input-group">
+      <div class="input-group-addon">@</div>
+      <input type="text" class="form-control" name="email" placeholder="Correo Electronico">
+    </div>
+  </fieldset>
+	<fieldset class="form-group">
+    <textarea class="form-control">¿Cuál es su necesidad?</textarea>
+  </fieldset>
+  <div class="form-group text-center">
+    <input value="Enviar" type="submit" class="btn btn-primary">
+  </div>
 </form>
