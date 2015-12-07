@@ -70,24 +70,22 @@ p.icons:after {
 
 <main class="container-fluid">{{ content }}</main>
 
-<footer class="container-fluid">
-  <div class="row">
-	  <div class="col-xs-12 col-md-6">
-		<div class="card">
-		  <div class="card-header text-warning">
-			<h2>Contacto</h2>
-		  </div>
-		  <div class="card-block">
-			  Lorem Ipsum
-		  </div>
-		  <div class="card-footer">
-			  {% include svg-icons.html %}
-		  </div>
-		</div>
+<footer class="card">
+  <div class="card-header text-warning">
+	<h2>Contacto</h2>
+  </div>
+  <div class="card-block">
+	<div class="row">
+	  <div class="col-xs-12 col-lg-6">
+		Lorem Ipsum
 	  </div>
 	  <div class="col-xs-12 col-md-6">
-  		{% include form.html %}
+		{% include form.html %}
 	  </div>
+	</div>
+  </div>
+  <div class="card-footer">
+	  {% include svg-icons.html %}
   </div>
 </footer>
 {% include analytics.html %}
