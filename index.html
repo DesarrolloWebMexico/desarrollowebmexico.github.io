@@ -47,18 +47,24 @@ summary: Somos un equipo joven de desarrolladores, diseñadores, y emprendedores
     </div>
   </div>
 </div>
-<h2 class="text-info">Blog</h2>
-<div class="posts">
+<h2 class="text-info text-center display-1 m-t-lg">BLOG</h2>
+<div class="card-deck-wrapper">
+  <div class="card-deck">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <article class="card">
+      <div class="card-block">
+        <h3 class="card-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h3>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer más</a>
+      <div class="card-block">
+        <p class="card-text">{{ post.excerpt }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="card-link">
+          Leer más
+        </a>
+      </div>
     </article>
   {% endfor %}
+  </div>
 </div>
