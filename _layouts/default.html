@@ -19,7 +19,7 @@ p.icons:after {
 }
 </style>
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-<header class="container-fluid bg-faded">
+<header class="container-fluid m-b-lg">
   <nav class="navbar">
     <a class="navbar-brand text-primary" href="{{ site.baseurl }}/">{{ site.name }}</a>
     <div class="navbar-brand m-l hidden-md-down">
@@ -34,13 +34,15 @@ p.icons:after {
   </nav>
 </header>
 
-<div class="container-fluid card">
-  <div class="card-block">
-    <h1 class="card-title">{{ page.title }}</h1>
-    <p class="card-subtitle text-mutted">{{ page.summary }}</p>
+<div class="card">
+  <div class="card-header">
+    <h1 class="card-title display-2 text-uppercase text-info text-center p-y-md">
+		{{ page.title }}
+	</h1>
+    <p class="card-subtitle text-justify">{{ page.summary }}</p>
   </div>
   <div class="card-block">
-    <p class="icons text-justify">
+    <p class="icons text-justify p-y-md m-y-0">
       <i class="fi-html5"></i>
       <i class="fi-like"></i>
       <i class="fi-css3"></i>
