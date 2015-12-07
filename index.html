@@ -8,56 +8,56 @@ summary: Somos un equipo joven de desarrolladores, diseñadores, y emprendedores
   <div class="col-xs-12 col-md-6">
     <div class="card-group">
 
-      <div class="card">
-        <img alt="Posicionamiento Seo" src="{{ site.baseurl }}/images/search-engines.jpg" class="img-rounded m-x-auto">
+      <article class="card">
+        <img alt="Posicionamiento Seo" src="{{ site.baseurl }}/images/search-engines.jpg" class="img-rounded img-responsive m-x-auto">
         <div class="card-block">
           <h4 class="card-title">Posicionamiento Seo</h4>
           <p class="card-text">Posiciona tu página en los primeros resultados.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="card">
-        <img alt="Social Media" src="{{ site.baseurl }}/images/social-media.jpg" class="img-rounded m-x-auto">
+      <article class="card">
+        <img alt="Social Media" src="{{ site.baseurl }}/images/social-media.jpg" class="img-rounded img-responsive m-x-auto">
         <div class="card-block">
           <h4 class="card-title">Social Media</h4>
           <p class="card-text">Tus propios clientes serán quienes promocionen tu marca.</p>
         </div>
-      </div>
+      </article>
 
     </div>
   </div>
   <div class="col-xs-12 col-md-6">
     <div class="card-group">
 
-      <div class="card">
-        <img alt="eCommerce" src="{{ site.baseurl }}/images/comercio-electronico.jpg" class="img-rounded m-x-auto">
+      <article class="card">
+        <img alt="eCommerce" src="{{ site.baseurl }}/images/comercio-electronico.jpg" class="img-rounded img-responsive m-x-auto">
         <div class="card-block">
           <h4 class="card-title">eCommere</h4>
           <p class="card-text">Tus productos disponibles en todo lugar y a toda hora.</p>
         </div>
-      </div>
+      </article>
 
-      <div class="card">
-        <img alt="Diseño Responsivo" src="{{ site.baseurl }}/images/diseno-web-responsivo.jpg" class="img-rounded m-x-auto">
+      <article class="card">
+        <img alt="Diseño Responsivo" src="{{ site.baseurl }}/images/diseno-web-responsivo.jpg" class="img-rounded img-responsive m-x-auto">
         <div class="card-block">
           <h4 class="card-title">Diseño Responsivo</h4>
           <p class="card-text">Listo para todos los dispositivos en el mercado.</p>
         </div>
-      </div>
+      </article>
 
     </div>
   </div>
 </div>
-<h2 class="bg-faded-text-info text-center display-1 m-t-lg">BLOG</h2>
+<h2 class="bg-faded text-info text-center display-1 m-t-lg">BLOG</h2>
 <div class="card-deck-wrapper">
   <div class="card-deck">
   {% for post in site.posts %}
     <article class="card">
-      <div class="card-block">
+      <header class="card-block">
         <h3 class="card-title">
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h3>
-      </div>
+      </header>
 
       <div class="card-block">
         <p class="card-text">{{ post.excerpt }}</p>
